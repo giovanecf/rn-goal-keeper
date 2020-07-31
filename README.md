@@ -1,3 +1,7 @@
 # rn-goal-keeper
 
-Aplicativo em **React Native** para adição, remoção e listagem de objetos com __nome__ e __cod__
+Aplicativo em **React Native** para adição, remoção e listagem de objeto *Objetivo*
+
+*Obj Objetivo:*
+ - cod
+ - nome
