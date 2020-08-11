@@ -21,6 +21,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "List, remove and add GOAL Objects",
+    "githubUrl": "https://github.com/giovanecf/rn-goal-keeper"
   }
 }

@@ -3,6 +3,7 @@ import { StyleSheet, View, FlatList, Button, Text, Image } from "react-native";
 
 import ItemObjetivo from "./components/ItemObjetivo";
 import InputObjetivo from "./components/InputObjetivo";
+import Colors from "./constants/colors";
 
 export default function App() {
   const [objetivos, setObjetivos] = useState([]);
@@ -73,7 +74,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#FFF",
+    backgroundColor: Colors.background,
     flex: 1,
   },
 
@@ -81,7 +82,7 @@ const styles = StyleSheet.create({
 
   barraTop: {
     flexDirection: "row",
-    backgroundColor: "rgb(53, 171, 183)",
+    backgroundColor: Colors.primary,
     alignItems: "center",
     justifyContent: "space-evenly",
     paddingTop: 36,
@@ -94,7 +95,7 @@ const styles = StyleSheet.create({
   },
 
   titulo: {
-    color: "#FFF",
+    color: Colors.titleInPrimary,
     fontWeight: "bold",
     fontSize: 24,
   },
